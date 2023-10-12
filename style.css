@@ -1,0 +1,166 @@
+@font-face{
+    font-family: "Vazir";
+    src: url("./font/vazir-font-v18.0.0/Vazir-Bold.eot") format('openType');
+    src: url("./font/vazir-font-v18.0.0/Vazir-Bold.ttf") format('truetype');
+    src: url("./font/vazir-font-v18.0.0/Vazir-Bold.woff") format('woff');
+    src: url("./font/vazir-font-v18.0.0/Vazir-Bold.woff2") format();
+    font-weight: bold;
+
+}
+
+@font-face{
+    font-family: "Vazir";
+    src: url("./font/vazir-font-v18.0.0/Vazir-Medium.eot") format('openType');
+    src: url("./font/vazir-font-v18.0.0/Vazir-Medium.ttf") format('truetype');
+    src: url("./font/vazir-font-v18.0.0/Vazir-Medium.woff") format('woff');
+    src: url("./font/vazir-font-v18.0.0/Vazir-Medium.woff2") format();
+    font-weight: normal;
+
+}
+
+@font-face{
+    font-family: "Vazir";
+    src: url("./font/vazir-font-v18.0.0/Vazir-Light.eot") format('openType');
+    src: url("./font/vazir-font-v18.0.0/Vazir-Light.ttf") format('truetype');
+    src: url("./font/vazir-font-v18.0.0/Vazir-Light.woff") format('woff');
+    src: url("./font/vazir-font-v18.0.0/Vazir-Light.woff2") format();
+    font-weight: 300;
+
+}
+
+@font-face{
+    font-family: "Vazir";
+    src: url("./font/vazir-font-v18.0.0/Vazir-Thin.eot") format('openType');
+    src: url("./font/vazir-font-v18.0.0/Vazir-Thin.ttf") format('truetype');
+    src: url("./font/vazir-font-v18.0.0/Vazir-Thin.woff") format('woff');
+    src: url("./font/vazir-font-v18.0.0/Vazir-Thin.woff2") format();
+    font-weight: 100;
+
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+/* General style */
+body{
+    font-family: "Vazir";
+}
+
+
+.leada{
+    font-weight: 300;
+}
+.bg-all{
+    background-color: #fffaf5;
+}
+
+.bg-baner{
+    background-color: #df9251;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.color-txt-h1{
+    color: rgb(204, 54, 0);
+}
+.btn-outline-h1-color {
+    --bs-btn-color: rgb(204, 54, 0);
+    --bs-btn-border-color: rgb(204, 54, 0);
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: rgb(204, 54, 0);
+    --bs-btn-hover-border-color: rgb(204, 54, 0);
+    --bs-btn-focus-shadow-rgb: 255,193,7;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: rgb(204, 54, 0);
+    --bs-btn-active-border-color: rgb(204, 54, 0);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: rgb(204, 54, 0);
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: rgb(204, 54, 0);
+    --bs-gradient: none;
+}
+
+/* modal style */
+.btn-nav-color{
+    --bs-btn-color: #fff ;
+    --bs-btn-bg: #df9251;
+    --bs-btn-border-color: #df9251;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #df9151d7;
+    --bs-btn-hover-border-color: #df9151d7;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #df9151d7;
+    --bs-btn-active-border-color: #e48638d7;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.171);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #df9251;
+    --bs-btn-disabled-border-color: #df9251;
+}
+
+.box-sh-color:focus{
+    box-shadow: 0 0 10px #df9251;
+    border: #df9251;
+}
+.form-check-input:checked{
+    background-color: #df9251;
+    border-color: #df9251;
+}
+
+/* card style */
+.card{
+    box-shadow:5px 5px 5px #df9251;
+
+}
+.card:hover{
+    transform: translateY(-7px);
+    box-shadow: 0 8px 25px  #df9251!important;
+    transition: 0.5s;
+}
+.card-t-color{
+    color: #df9251;
+}
+/* footer style */
+
+.icon-link:hover{
+    --bs-icon-link-transform: translate3d(-.125rem, -.125rem, 0);
+    background-color: #fff;
+    color: #000 !important;
+    padding: 0.5rem;
+    transition: 0.5s;
+}
+
+.up-down:hover{
+    transform: translate3d(-3px, -3px, 0);
+    transition: 0.5s;
+}
+/* navbar style */
+@media (min-width:768px) {
+    .dropdown-menu:hover > li{
+        display: block;
+    }
+
+    header nav div div ul li:hover > ul{
+        display: block;
+        transform:translate3d(1px);
+        box-shadow: 0 0 10px #df9251;
+        transition: 2s ;
+        
+    }
+    .nav-link:hover{
+        color: #df9251;
+        transition: .3s ease-in-out;
+    }
+    .dropdown-item:hover{
+        background-color: #df9251;
+        transition: 0.3s;
+    }
+    }
+
