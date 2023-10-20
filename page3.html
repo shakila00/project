@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.rtl.min.css" integrity="sha384-PRrgQVJ8NNHGieOA1grGdCTIt4h21CzJs6SnWH4YMQ6G5F5+IEzOHz67L4SQaF0o" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md bg-light py-2 shadow">
+            <div class="container align-items-center ">
+              
+              <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <div class="collapse navbar-collapse me-auto mt-2" id="navmenu">
+                <div class="navbar-nav me-5">
+                    <!-- modal-->
+                    <button type="button" class=" btn btn-nav-color fw-semibold px-4 rounded-2 me-auto" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@gmail">ورود/ثبت نام</button>
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">عضو سایت هستید؟ وارد شوید.</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <form action="" method="post">
+                              <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">ایمیل</label>
+                                <input type="email" class="form-control box-sh-color" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">رمز عبور</label>
+                                <input type="password" class="form-control box-sh-color" id="exampleInputPassword1">
+                              </div>
+                              <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">مرا بخاطر بسپار</label>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            
+                            <button type="button" class="btn btn-nav-color">ورود</button>
+                            <button class="btn btn-warning" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">هنوز عضو نشدم!</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">ثبت نام در سایت</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <form>
+                              <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">ایمیل</label>
+                                <input type="email" class="form-control box-sh-color" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">رمز عبور</label>
+                                <input type="password" class="form-control box-sh-color" id="exampleInputPassword1">
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleInputPassword2" class="form-label">تایید رمز عبور</label>
+                                <input type="password" class="form-control box-sh-color" id="exampleInputPassword2">
+                              </div>
+                              <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">مرا بخاطر بسپار</label>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="submit" class="btn btn-nav-color" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">ثبت نام</button>                            
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">بستن</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                   <button class="btn me-auto border-0"><a href="file:///C:/Users/User/Desktop/task/page1.html#blog" class="nav-link">مقالات</a></button>
+                </div>
+                <ul class="navbar-nav ">
+                    <li class="nav-item ms-2 "><a href="C:/Users/User/Desktop/task/page3.html" class="nav-link">فروشگاه</a></li>
+                    <li class="nav-item ms-2 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            دسته بندی
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#literature">شعر و ادبیات</a></li>
+                            <li><a class="dropdown-item" href="#Psychology">روانشناسی</a></li>
+                            <li><a class="dropdown-item" href="#Academic">علمی</a></li>
+                          </ul>
+                    </li>
+                    <li class="nav-item ms-2 "><a href="file:///C:/Users/User/Desktop/task/page2.html" class="nav-link"> معرفی نویسندگان </a></li>
+                </ul>
+                
+              </div>
+              <a href="#" class="navbar-brand ">
+                <img src="./image/logocompany.png" alt="logocompany" class="img-fluid " style=" width: 4rem; height: 4rem;">
+              </a>
+    
+            </div>
+        </nav>
+    </header>
+
+    <main>
+      <!-- description -->
+      <section class="bg-all text-center py-5">
+        <div class="container">
+          <div class="row justify-content-around my-5 bg-white rounded-2">
+            <div class="col-10 col-md-8">
+              <div class="text-wrapper py-4">
+                <h3 class="py-2 color-txt-h1 fw-bold">معرفی کتاب‌های خوب برای هدیه دادن</h3>
+                <p class="leada py-2">هدیه دادن امری است که همیشه و در تمامی فرهنگ‌ها مرسوم و پسندیده است. برای هدیه دادن حتی لازم نیست دنبال بهانه یا مناسبتی خاص باشید؛ اتفاقا هدیه‌های بی‌مقدمه و بی‌دلیل لذت بیشتری دارند. هم کسی که هدیه می‌گیرد و هم کسی که هدیه می‌دهد در این شعف سهیم می‌شوند. شما انتخاب‌های بسیاری دارید بااین‌حال بهترین انتخاب شما می‌تواند کتاب باشد.</p>
+              </div>
+              <div class="info p-3">
+                <img src="./image/image_description.png" alt="image" class="img-fluid rounded-circle" style="width: 6rem; height: 6rem;">
+                <h5 class="pt-4 ">فروشگاه کتاب</h5>
+                <p class="blockquote fs-6 fw-light text-secondary">معرفی پرفروشترین کتابهای روز</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+      <!-- store -->
+      <section class="bg-all py-5">
+        <div class="container">
+          <div class="d-flex flex-column ">
+            <div class="row p-3 bg-baner justify-content-between align-items-center rounded-2 mb-4" id="literature">
+              <div class="col-12 col-md-4 p-2 d-flex justify-content-around ">
+                <img src="./image/silmarion.jpg" alt="silmarilion" class="img-fluid rounded-3" style="width:20rem; height:20rem;">
+              </div>
+              <div class="col-12 col-md-8 p-2">
+                <div class="info-wrapper m-0">
+                  <div class="info-top p-3 bg-all rounded-2">
+                    <a href="#" class="text-start text-secondary text-decoration-none" >شعر و ادبیات</a>
+                    <div class="book-name d-flex justify-content-between mt-4">
+                      <h3>سیلماریلیون</h3>
+                      <h3 class="text-end">300,000 <span class="text-secondary fs-5">تومان</span></h3>
+                    </div>
+                  </div>
+                  <div class="info-bottom p-3 bg-all mt-1 rounded-2">
+                    <div class="more-info d-flex justify-content-between align-items-center">
+                      <div class="more-info-item">
+                        <P class="text-center text-secondary">سال انتشار</P>
+                        <P class="text-center text-secondary">1386</P>
+                      </div>
+                      <div class="more-info-item">
+                        <P class="text-center text-secondary">تعداد صفحات</P>
+                        <P class="text-center text-secondary">624</P>
+                      </div>
+                      <div class="more-info-item">
+                        <a href="#" class="btn btn-outline-h1-color">خرید کتاب</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row p-3 bg-baner justify-content-between align-items-center rounded-2 mb-4" id="Academic">
+              <div class="col-12 col-md-4 p-2 d-flex justify-content-around ">
+                <img src="./image/short.response.jpg" alt="stiven" class="img-fluid rounded-3" style="width:20rem; height:20rem;">
+              </div>
+              <div class="col-12 col-md-8 p-2">
+                <div class="info-wrapper m-0">
+                  <div class="info-top p-3 bg-all rounded-2">
+                    <a href="#" class="text-start text-secondary text-decoration-none" >علمی</a>
+                    <div class="book-name d-flex justify-content-between mt-4">
+                      <h3>پاسخ های کوتاه به پرسشهای بزرگ</h3>
+                      <h3 class="text-end">200,000 <span class="text-secondary fs-5">تومان</span></h3>
+                    </div>
+                  </div>
+                  <div class="info-bottom p-3 bg-all mt-1 rounded-2">
+                    <div class="more-info d-flex justify-content-between align-items-center">
+                      <div class="more-info-item">
+                        <P class="text-center text-secondary">سال انتشار</P>
+                        <P class="text-center text-secondary">1397</P>
+                      </div>
+                      <div class="more-info-item">
+                        <P class="text-center text-secondary">تعداد صفحات</P>
+                        <P class="text-center text-secondary">192</P>
+                      </div>
+                      <div class="more-info-item">
+                        <a href="#" class="btn btn-outline-h1-color">خرید کتاب</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row p-3 bg-baner justify-content-between align-items-center rounded-2 mb-4" id="Psychology">
+              <div class="col-12 col-md-4 p-2 d-flex justify-content-around ">
+                <img src="./image/human.jpg" alt="silmarilion" class="img-fluid rounded-3" style="width:20rem; height:20rem;">
+              </div>
+              <div class="col-12 col-md-8 p-2">
+                <div class="info-wrapper m-0">
+                  <div class="info-top p-3 bg-all rounded-2">
+                    <a href="#" class="text-start text-secondary text-decoration-none" >روانشناسی</a>
+                    <div class="book-name d-flex justify-content-between mt-4">
+                      <h3>انسان در جستجوی معنا</h3>
+                      <h3 class="text-end">150,000 <span class="text-secondary fs-5">تومان</span></h3>
+                    </div>
+                  </div>
+                  <div class="info-bottom p-3 bg-all mt-1 rounded-2">
+                    <div class="more-info d-flex justify-content-between align-items-center">
+                      <div class="more-info-item">
+                        <P class="text-center text-secondary">سال انتشار</P>
+                        <P class="text-center text-secondary">1399</P>
+                      </div>
+                      <div class="more-info-item">
+                        <P class="text-center text-secondary">تعداد صفحات</P>
+                        <P class="text-center text-secondary">155</P>
+                      </div>
+                      <div class="more-info-item">
+                        <a href="#" class="btn btn-outline-h1-color ">خرید کتاب</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="">
+        <section class="bg-secondary pt-5 ">
+            <div class="container">
+                <div class="row">
+                  <div class="col-3">
+                    <h5 class="mb-3 fw-bold">درباره‌ی ما</h5>
+                    <ul class="text-light text-start list-unstyled">
+                        <li class="mb-3 up-down"><a href="#" class="text-light fw-light text-decoration-none">شرایط و ضوابط</a></li>
+                        <li class="mb-3 up-down"><a href="#" class="text-light fw-light text-decoration-none">سیاست حفظ حریم خصوصی</a></li>
+                        <li class="mb-3">
+                            <div class="row">
+                                <div class="col-3 text-start">
+                                    <a href="#" class="icon-link text-light rounded-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                                          </svg>
+                                    </a>
+                                </div>
+                                <div class="col-3 text-start">
+                                    <a href="#" class="icon-link text-light rounded-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                                          </svg>
+                                    </a>
+
+                                </div>
+                                <div class="col-3 text-start">
+                                    <a href="#" class="icon-link text-light rounded-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                                          </svg>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                  </div>
+
+                  <div class="col-3">
+                    <h5 class="mb-3 fw-bold">منابع</h5>
+                    <ul class="text-light text-start list-unstyled">
+                        <li class="mb-3 up-down"><a href="#" class="text-light fw-light text-decoration-none up-down">اطلاعات عمومی</a></li>
+                        <li class="mb-3 up-down"><a href="#" class="text-light fw-light text-decoration-none">کتابشناسی و نمایه</a></li>
+                        <li class="mb-3 up-down"><a href="#" class="text-light fw-light text-decoration-none">دایرة المعارف</a></li>
+                        <li class="mb-3 up-down"><a href="#" class="text-light fw-light text-decoration-none">مشاهده همه ی منابع<i class="bi bi-chevron-left"></i></a></li>
+                    </ul>
+                  </div>
+
+                  <div class="col-2">
+                    <h5 class="mb-3 fw-bold">دسترسی سریع</h5>
+                    <ul class="text-light text-start list-unstyled">
+                        <li class="mb-3 up-down"><a href="file:///C:/Users/User/Desktop/task/page1.html" class="text-light fw-light text-decoration-none up-down">صفحه اصلی</a></li>
+                        <li class="mb-3 up-down"><a href="C:/Users/User/Desktop/task/page3.html" class="text-light fw-light text-decoration-none">فروشگاه</a></li>
+                        <li class="mb-3 up-down"><a href="file:///C:/Users/User/Desktop/task/page1.html#blog" class="text-light fw-light text-decoration-none">مقالات</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="col-4 ">
+                    <div class="text-end">
+                        <img src="./image/logocompany-footer.png" alt="" class="img-fluid" style="width: 5rem; height: 6rem;">
+                    </div>
+                  </div>
+
+                </div>
+                <div class="text-center border-top border-light-subtle mt-5">
+                  <p class="text-light leada p-3"> copyright &copy;2023   Books</p>
+                </div>
+            </div>
+
+        </section>
+        
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+    
+</body>
+</html>
